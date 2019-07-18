@@ -49,6 +49,10 @@
                 <behavior>Edit</behavior>
                 <field>sfdx_demo2_text__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>sfdx_created_date__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -179,11 +183,6 @@
         <quickActionListItems>
             <quickActionName>NewEvent</quickActionName>
         </quickActionListItems>
-         <!-- 
-        <quickActionListItems>
-            <quickActionName>FeedItem.RypplePost</quickActionName>
-        </quickActionListItems>
-        -->
         <quickActionListItems>
             <quickActionName>FeedItem.LinkPost</quickActionName>
         </quickActionListItems>

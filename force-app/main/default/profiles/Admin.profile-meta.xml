@@ -38,6 +38,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.sfdx_created_date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.sfdx_demo2_text__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -199,12 +204,10 @@
         <enabled>true</enabled>
         <name>CreateTopics</name>
     </userPermissions>
-        <!-- 
     <userPermissions>
         <enabled>true</enabled>
         <name>CreateWorkBadgeDefinition</name>
     </userPermissions>
-    -->
     <userPermissions>
         <enabled>true</enabled>
         <name>CreateWorkspaces</name>
@@ -313,12 +316,10 @@
         <enabled>true</enabled>
         <name>ExportReport</name>
     </userPermissions>
-    <!-->
     <userPermissions>
         <enabled>true</enabled>
         <name>FieldServiceAccess</name>
     </userPermissions>
-    -->
     <userPermissions>
         <enabled>true</enabled>
         <name>GiveRecognitionBadge</name>
@@ -583,12 +584,10 @@
         <enabled>true</enabled>
         <name>SelectFilesFromSalesforce</name>
     </userPermissions>
-    <!-->
     <userPermissions>
         <enabled>true</enabled>
         <name>SendExternalEmailAvailable</name>
     </userPermissions>
-    -->
     <userPermissions>
         <enabled>true</enabled>
         <name>SendSitRequests</name>
